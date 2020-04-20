@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ConvertidorUniversal</string>
+    <string name="masa">Masa</string>
+    <string name="distancia">Distancia</string>
+    <string name="volumen">Volumen</string>
+    <string name="cocina">Cocina</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="presion">Presión</string>
+</resources>

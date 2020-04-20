@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Colores Propios:-->
+    <!--Paleta Base, luego modificada: https://www.schemecolor.com/trip-to-the-sea-beach.php-->
+    <color name="categoriaMasa">#42B7C2</color>
+    <color name="categoriaDistancia">#8FC8C4</color>
+    <color name="categoriaVolumen">#FDF2C5</color>
+    <color name="categoriaCocina">#DECA98</color>
+    <color name="categoriaTemperatura">#BB8E6F</color>
+    <color name="categoriaPresion">#9F6370</color>
+</resources>
