@@ -20,30 +20,35 @@
         style="@style/ownStyleCategorie"
         android:text="@string/distancia"
         android:background="@color/categoriaDistancia"
+        android:onClick="goDistanciaActivity"
     />
 
     <TextView
         style="@style/ownStyleCategorie"
         android:text="@string/volumen"
         android:background="@color/categoriaVolumen"
+        android:onClick="goVolumenActivity"
     />
 
     <TextView
         style="@style/ownStyleCategorie"
         android:text="@string/cocina"
         android:background="@color/categoriaCocina"
+        android:onClick="goCocinaActivity"
     />
 
     <TextView
         style="@style/ownStyleCategorie"
         android:text="@string/temperatura"
         android:background="@color/categoriaTemperatura"
+        android:onClick="goTemperaturaActivity"
     />
 
     <TextView
         style="@style/ownStyleCategorie"
         android:text="@string/presion"
         android:background="@color/categoriaPresion"
+        android:onClick="goPresionActivity"
     />
 
 </LinearLayout>

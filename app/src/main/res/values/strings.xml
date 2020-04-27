@@ -6,5 +6,22 @@
     <string name="cocina">Cocina</string>
     <string name="temperatura">Temperatura</string>
     <string name="presion">Presión</string>
-    <string name="massConversor">Convertidor de Masa:</string>
+    <string name="massConversor">Convertidor de Masa</string>
+    <string name="distanceConversor">Convertidor de Distancias</string>
+    <string name="kitchenConversor">Convertidor de unidades de Cocina</string>
+    <string name="pressureConversor">Convertidor de Presiones</string>
+    <string name="temperatureConversor">Convertidor de Temperaturas</string>
+    <string name="volumeConversor">Convertidor de Volumenes</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
 </resources>

@@ -15,7 +15,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goMasaActivity(View view) {
-        Intent goMasaIntentFromMain = new Intent(MainActivity.this,MasaActivity.class);
-        startActivity(goMasaIntentFromMain);
+        Intent intent = new Intent(MainActivity.this,MasaActivity.class);
+        startActivity(intent);
+    }
+
+    public void goDistanciaActivity(View view) {
+        Intent intent = new Intent(MainActivity.this,DistanciaActivity.class);
+        startActivity(intent);
+    }
+
+    public void goVolumenActivity(View view) {
+        Intent intent = new Intent(MainActivity.this,VolumenActivity.class);
+        startActivity(intent);
+    }
+
+    public void goCocinaActivity(View view) {
+        Intent intent = new Intent(MainActivity.this,CocinaActivity.class);
+        startActivity(intent);
+    }
+
+    public void goTemperaturaActivity(View view) {
+        Intent intent = new Intent(MainActivity.this,TemperaturaActivity.class);
+        startActivity(intent);
+    }
+
+    public void goPresionActivity(View view) {
+        Intent intent = new Intent(MainActivity.this,PresionActivity.class);
+        startActivity(intent);
     }
 }

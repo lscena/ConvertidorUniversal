@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MasaActivity"
+    tools:context=".VolumenActivity"
     android:gravity="center"
     android:orientation="vertical"
     >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/massConversor"
-        android:textSize="50sp"
-        android:gravity="center_horizontal"
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/volumeConversor"
+    android:textSize="50sp"
+    android:gravity="center_horizontal"
     />
 
 </LinearLayout>

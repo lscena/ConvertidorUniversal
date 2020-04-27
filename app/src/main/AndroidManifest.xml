@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MasaActivity"></activity>
+        <activity android:name=".PresionActivity"></activity>
+        <activity android:name=".TemperaturaActivity" />
+        <activity android:name=".CocinaActivity" />
+        <activity android:name=".VolumenActivity" />
+        <activity android:name=".DistanciaActivity" />
+        <activity android:name=".MasaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
