@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MasaActivity"
-    android:gravity="center"
+
     android:orientation="vertical"
     >
 
@@ -16,5 +16,151 @@
         android:textSize="50sp"
         android:gravity="center_horizontal"
     />
+
+    <EditText
+        android:id="@+id/masaInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Primer Columna:-->
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <RadioButton
+                android:id="@+id/kgFromRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fromUnitChecked"
+                android:text="Kg"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/gFromRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fromUnitChecked"
+                android:text="g" />
+
+            <RadioButton
+                android:id="@+id/mgFromRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fromUnitChecked"
+                android:text="mg" />
+
+            <RadioButton
+                android:id="@+id/tImprerialFromRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fromUnitChecked"
+                android:text="t (imperial)" />
+
+            <RadioButton
+                android:id="@+id/tMetricaFromRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fromUnitChecked"
+                android:text="t (métrica)" />
+
+            <RadioButton
+                android:id="@+id/ozFromRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fromUnitChecked"
+                android:text="Oz" />
+
+            <RadioButton
+                android:id="@+id/lbFromRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fromUnitChecked"
+                android:text="lb" />
+
+        </RadioGroup>
+
+
+        <!--Segunda Columna:-->
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <RadioButton
+                android:id="@+id/kgToRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="toUnitChecked"
+                android:text="Kg" />
+
+            <RadioButton
+                android:id="@+id/gToRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="toUnitChecked"
+                android:text="g"
+                android:checked="true"
+            />
+
+            <RadioButton
+                android:id="@+id/mgToRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="toUnitChecked"
+                android:text="mg" />
+
+            <RadioButton
+                android:id="@+id/tImprerialToRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="toUnitChecked"
+                android:text="t (imperial)" />
+
+            <RadioButton
+                android:id="@+id/tMetricaToRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="toUnitChecked"
+                android:text="t (métrica)" />
+
+            <RadioButton
+                android:id="@+id/ozToRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="toUnitChecked"
+                android:text="Oz" />
+
+            <RadioButton
+                android:id="@+id/lbToRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="toUnitChecked"
+                android:text="lb" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/resultMass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertir"
+        android:onClick="calculateMass"
+    />
+
 
 </LinearLayout>
