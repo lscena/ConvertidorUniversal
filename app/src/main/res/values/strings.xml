@@ -12,6 +12,7 @@
     <string name="pressureConversor">Convertidor de Presiones</string>
     <string name="temperatureConversor">Convertidor de Temperaturas</string>
     <string name="volumeConversor">Convertidor de Volumenes</string>
+    <string name="convertir">Convertir</string>
 
     <string-array name="country_arrays">
         <item>Malaysia</item>

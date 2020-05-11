@@ -17,4 +17,55 @@
         android:gravity="center_horizontal"
     />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    >
+
+        <!--Ingreso de Input:-->
+        <EditText
+            android:id="@+id/inputPresion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+        />
+        <!--Resultado:-->
+        <TextView
+            android:id="@+id/resultPresion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Spinner
+            android:id="@+id/fromUnitSpinner"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:spinnerMode="dialog"
+        />
+
+        <Spinner
+            android:id="@+id/toUnitSpinner"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:spinnerMode="dialog"
+        />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="convertirPresion"
+        android:text="@string/convertir"
+    />
+
 </LinearLayout>
